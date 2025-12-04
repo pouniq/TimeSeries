@@ -15,3 +15,4 @@ np.log(df['#Passengers']).plot(figsize=(20,10))
 data , lam = boxcox(df['#Passengers'])
 df['boxcox'] = data
 df['boxcox'].plot(figsize=(20,16))
+df['boxcox'].plot(figsize=(3,15))
